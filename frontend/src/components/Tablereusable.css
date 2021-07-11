@@ -1,0 +1,76 @@
+#ctftable {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ctftable td,
+#ctftable th {
+  padding: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+.view-header-container {
+  height: 30px;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid white;
+  flex: 1;
+  color: white;
+  cursor: pointer;
+}
+.table-header {
+  color: #cf6361;
+  height: 10px;
+  font-weight: bold;
+}
+.table-data {
+  color: #fff;
+}
+.popup-title {
+  margin-bottom: 20px;
+}
+.popup-message {
+  max-width: 98%;
+  margin-top: 3px;
+}
+.table-pageactive {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.table-pageunavailable {
+  height: 20px;
+  width: 20px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+@media screen and (max-width: 650px) {
+  #ctftable td,
+  #ctftable th {
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 8px;
+  }
+  .ctftablellist-time {
+    font-size: 8px;
+  }
+}
